@@ -6,8 +6,11 @@ API documentation: https://api.simplemining.net/docs.html
 ## Usage
 
 ```
+import smos
+from smos import SMOS
 import secrets
 from pprint import pprint as pp
+
 #creating an object
 smos = SMOS(secrets.api_key)
 
