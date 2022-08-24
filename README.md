@@ -26,7 +26,7 @@ address = smos.getDepositAddress(payload)
 
 # Getting deposit history
 payload = {'page': 1, 'itemsPerPage': '100', 'order[amountUsd]': 'asc'}
-deposits = smos.getDepositList(params)
+deposits = smos.getDepositList(payload)
 
 # rebooting rig(s) by their ID or group ID or whatever
 rigs = '{"rigIds": [761897,111111,222222,987654]}'
